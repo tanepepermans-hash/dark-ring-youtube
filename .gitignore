@@ -1,0 +1,23 @@
+# Secrets — nooit committen
+.env
+.env.local
+.env.*.local
+
+# Binaire productiebestanden — te groot/onnodig voor git, blijven lokaal
+voiceovers/**
+!voiceovers/.gitkeep
+assets/**
+!assets/.gitkeep
+!assets/README.md
+exports/**
+!exports/.gitkeep
+thumbnails/*.png
+thumbnails/*.jpg
+thumbnails/*.psd
+!thumbnails/.gitkeep
+
+# OS/editor
+.DS_Store
+Thumbs.db
+__pycache__/
+*.pyc
