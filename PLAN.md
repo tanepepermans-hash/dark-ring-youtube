@@ -8,6 +8,17 @@ er wordt nog geen content geproduceerd. Dat gebeurt pas na jouw akkoord, per ond
 > -features veranderen snel. Alle genoemde prijzen/limieten zijn richtwaarden — controleer
 > ze zelf op de site van de tool voordat je een abonnement neemt. Ik geef geen omzetgaranties.
 
+> **Update na de eerste pilot (DR-0001):** de visuele stijl is bijgesteld van "premium
+> documentaire met stockbeeld/tekstkaarten" (oorspronkelijke brief, §6) naar
+> **animatie/motion-graphics, en korter (15-25 sec i.p.v. 35-60 sec)**. Belangrijke
+> consequentie: echte, vloeiende cartoon-animatie (bewegende personages/gezichten)
+> vereist een betaalde AI-videotool (Runway/Pika/Kling, kosten per generatie) of een
+> animatie-abonnement (bv. Vyond) — dat is nog niet aangesloten. Wat nu wél gratis/lokaal
+> werkt: vlakke, symbolische iconen (silhouetten, geen afbeelding van een specifiek echt
+> persoon) die in beeld "poppen" via zelfgebouwde Python/ffmpeg-tooling
+> (`tools/build_draft_video_v2.py`). Dit is de tussenoplossing totdat we samen beslissen
+> of een betaalde tool de investering waard is.
+
 ---
 
 ## 1. Kritische beoordeling van het concept
